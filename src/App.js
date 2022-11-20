@@ -1,8 +1,10 @@
+import { RouterProvider } from "react-router-dom";
+import router from "./Route/Route/Route";
 
 function App() {
   return (
     <div className="max-w-screen-xl mx-auto">
-      <h1>Hello World</h1>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
